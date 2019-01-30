@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6c35ed7cc79d4ec4ba8248d02daee6b6
+timeCreated: 1548621350
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BM mini
+  fontNames:
+  - BM mini
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

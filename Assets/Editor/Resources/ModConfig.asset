@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
+  m_Name: ModConfig
+  m_EditorClassIdentifier: 
+  id: passportControl
+  title: Passport Control
+  description: 'Passport Control V1.0
+
+    -------------------------
+
+    Your name has been rolled on the OLL.
+
+    From now you shall server your new position as Passport Control Inspector.
+
+
+    Glory to Arstotzka, glory greatest country
+
+
+    Module ID: passportControl
+
+    Created by: Crystlack
+
+
+    Manual available here: https://ktane.timwi.de/HTML/Passport%20Control.html
+
+
+    Hug thanks to MCA for the stamps'' models!!!'
+  version: 1.0
+  outputFolder: build
+  previewImage: {fileID: 2800000, guid: 28acb703e9d52684e83500fc0a201cf6, type: 3}
