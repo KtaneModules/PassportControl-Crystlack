@@ -216,11 +216,11 @@ public class passportControlScript : MonoBehaviour
             currCH = bomb.GetSerialNumber()[1];
             if(currCH >= '0' && currCH <= '9')
             {
-                date[0] += currCH - '0';
+                date[0] += (currCH - '0') % 10;
             }
             else
             {
-                date[0] += currCH - 'A' + 1;
+                date[0] += (currCH - 'A' + 1) % 10;
             }
 
             /*/Month/*/
