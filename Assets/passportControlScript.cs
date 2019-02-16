@@ -129,7 +129,10 @@ public class passportControlScript : MonoBehaviour
         expiration[0] = UnityEngine.Random.Range(1, 30);
         expiration[1] = UnityEngine.Random.Range(1, 13);
         expiration[2] = 2000 + UnityEngine.Random.Range(-10, 20);
-
+        if (expiration[2] < birthday[2])
+        {
+            expiration[2] += 17 - (expiration[2] - birthday[2]); //making sure the passport expires AFTER person was born
+        }
         passport[0].GetComponent<TextMesh>().text = name;
         passport[1].GetComponent<TextMesh>().text = ethnicity;
         passport[2].GetComponent<TextMesh>().text = birthday[0].ToString() + "/" + birthday[1].ToString() + "/" + birthday[2].ToString();
