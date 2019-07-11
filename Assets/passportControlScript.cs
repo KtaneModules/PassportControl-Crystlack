@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -364,4 +364,20 @@ public class passportControlScript : MonoBehaviour
             audio.PlaySoundAtTransform("printer-line", transform);
         }
     }
+    public string TwitchHelpMessage = "Use '!{0} accept' or '!{0} acc' to accept the passport and '!{0} reject' or '!{0} rej' to reject it!";
+    IEnumerator ProcessTwitchCommand(string command)
+    {
+
+        if(command.Equals("reject", StringComparison.InvariantCultureIgnoreCase) || command.Equals("rej", StringComparison.InvariantCultureIgnoreCase)){
+				yield return null;
+				yield return stamps[1];
+				yield return stamps[1];
+			}
+        if(command.Equals("accept", StringComparison.InvariantCultureIgnoreCase) || command.Equals("acc", StringComparison.InvariantCultureIgnoreCase)){
+				yield return null;
+				yield return stamps[0];
+				yield return stamps[0];
+			}
+    }
+
 }
