@@ -13,27 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: passportControl
   title: Passport Control
-  description: 'Passport Control V1.0
-
-    -------------------------
-
-    Your name has been rolled on the OLL.
-
-    From now you shall server your new position as Passport Control Inspector.
-
-
-    Glory to Arstotzka, glory greatest country
-
-
-    Module ID: passportControl
-
-    Created by: Crystlack
-
-
-    Manual available here: https://ktane.timwi.de/HTML/Passport%20Control.html
-
-
-    Hug thanks to MCA for the stamps'' models!!!'
-  version: 1.0
+  author: 
+  description: "Passport Control\r\n-------------------------\r\nYour name has been
+    rolled on the OLL.\r\nFrom now you shall server your new position as Passport
+    Control Inspector.\r\n\r\nGlory to Arstotzka, glory greatest country\r\n\r\nModule
+    ID: passportControl\r\nCreated by: Crystlack\r\n\r\nManual available here: https://ktane.timwi.de/HTML/Passport%20Control.html\r\n\r\nHuge
+    thanks to MCA for the stamps' models!!!"
+  version: 
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 28acb703e9d52684e83500fc0a201cf6, type: 3}
